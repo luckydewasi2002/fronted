@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        .container{
+            height: 100vh;
+            background-color: blue;
+            display: flex;
+        }
+        .box{
+            background-color: yellow;
+            border: 2px solid black;
+            margin: 5px;
+        }
+        #box1{
+            width: 25%;
+        }
+        #box2{
+            width: 25%;
+        }
+        #box3{
+            width: 25%;
+        }
+        #box4{
+            width: 25%;
+        }
+        #inner1{
+            background-color: red;
+            height: 50%;
+            margin: 0px;
+        } 
+        #inner2{
+          background-color: chartreuse;
+           height: 50%;
+           margin: 0px;
+        }
+       #iner1{
+        background-color: aliceblue;
+        height: 50%;
+        margin: 0px;
+       }
+       #iner2{
+        background-color: black;
+        height: 50%;
+        margin: 0px;
+       }
+       #ininner1{
+        background-color: cornflowerblue;
+        height: 60%;
+        margin: 0px;
+       }
+       #ininner2{
+        background-color: deeppink;
+        margin: 0px;
+        height: 40%;
+       }
+      #inin1{
+        background-color: gold;
+        width: 70%;
+        margin: 0px;
+      }
+      #inin2{
+        background-color: crimson;
+        width: 30%;
+        margin: 0px;
+      }
+      #ininin1{
+        background-color: orange;
+        height: 60%;
+        margin: 0px;
+      }
+      #ininin2{
+       background-color: navajowhite;
+       height: 40%;
+       margin: 0px;
+      }
+      #iii1{
+        background-color: darkblue;
+        width: 70%;
+        margin: 0px;
+      }
+      #iii2{
+        background-color: indigo;
+        width: 30%;
+        margin: 0px;
+      }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1"></div>
+        <div class="box" id="box2">
+            <div class="box inner" id="inner1"></div>
+            <div class="box inner" id="inner2"></div>
+        </div>
+        <div class="box" id="box3">
+            <div class="box3 inner" id="iner1"></div>
+            <div class="box3 inner" id="iner2">
+                <div id="ininner1">
+                    <div id="inin1"></div>
+                    <div id="inin2"></div>
+                </div>
+                <div id="ininner2"></div>
+            </div>
+        </div>
+        <div class="box" id="box4">
+            <div id="ininin1">
+                <div id="iii1 "></div>
+                <div id="iii2"></div>
+            </div>
+            <div id="ininin2"></div>
+        </div>
+    </div>
+</body>
+</html>
