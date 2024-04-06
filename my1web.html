@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my frist web clone</title>
+    <style>
+.header{
+    height: 10vh;
+    width: 100%;
+    background-color: white;
+   top: 0px;
+    position: fixed;
+    padding-top: 20px;
+    border-radius: 0px 0px 5px 5px;
+
+}
+
+.header ul li {
+
+display: inline-block;
+margin-left: 10px;
+padding: 10px;
+font-family: sans-serif;
+cursor: pointer;
+
+
+
+}
+#a{
+    margin-left: 0px;
+    
+    font-style: normal;
+    font-family: sans-serif;
+    letter-spacing: 4px;
+}
+#a:hover{
+   background-color: rgb(197, 207, 207);
+   border-radius: 3px;
+}
+#b{
+  
+    margin-left: 850px;
+    font-style: normal;
+    font-family: sans-serif;
+    letter-spacing: 4px;
+}
+#b:hover{
+    background-color: rgb(197, 207, 207);
+   border-radius: 3px;
+}
+#c{
+    font-style: normal;
+    font-family: sans-serif;
+    letter-spacing: 4px;
+}
+#c:hover{
+    background-color: rgb(197, 207, 207);
+   border-radius: 3px;
+}
+#d{
+    font-style: normal;
+    font-family: sans-serif;
+    letter-spacing: 4px;
+}
+#d:hover{
+    background-color: rgb(197, 207, 207);
+   border-radius: 3px;
+}
+.content{
+    height: 90vh;
+    width: 100%;
+    background: url(https://www.w3schools.com/w3images/architect.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.br{
+    height: 40px;
+    width: 60px;
+    background-color: rgb(58, 55, 55);
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+}
+.art{
+    height: 40px;
+    width: 60px;
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: white;
+    margin-left: 10px;
+}
+
+.project{
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 30px;
+   
+}
+.box{
+   
+  box-sizing: border-box;
+ 
+    display: flex;
+   flex-wrap: wrap;
+  
+  background-color: white;
+    margin: 5px;
+
+}
+.box1{
+     height: 250px;
+  width:330px;
+ border: 2px solid black;
+ margin: 5px;
+
+}
+#b1 {
+    background: url(https://www.w3schools.com/w3images/house5.jpg);
+}
+    
+#b2{
+    background: url(https://www.w3schools.com/w3images/house2.jpg);
+}
+#b3{
+    background: url(https://www.w3schools.com/w3images/house3.jpg);
+}
+#b4{
+    background: url(https://www.w3schools.com/w3images/house4.jpg);
+}
+#b5{
+    background: url(https://www.w3schools.com/w3images/house2.jpg);
+}
+#b6{
+    background: url(https://www.w3schools.com/w3images/house5.jpg);
+}
+#b7{
+    background: url(https://www.w3schools.com/w3images/house4.jpg);
+}
+#b8{
+    background: url(https://www.w3schools.com/w3images/house3.jpg);
+}
+.boxinner{
+    box-sizing: border-box;
+    height: 40px;
+    width: 130px;
+    background: black;
+    margin: 0px;
+  margin-top: 0px;
+} 
+.boxinner1{
+    box-sizing: border-box;
+    height: 40px;
+    width: 130px;
+    background: black;
+    margin: 0px;
+  margin-top: 0px;
+  text-align: left;
+}
+h5{
+   
+    color: white;
+  
+   text-align: center;
+   padding-top: 10px;
+   font-family: sans-serif;
+}
+.about{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.box2{
+    height: 400px;
+  width:330px;
+ 
+ margin: 5px;
+}
+.john{
+    height: 50%;
+  
+    
+}
+.john img{
+    height: 100%;
+    width: 100%;
+}
+.doe{
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.artk{
+    font-family: sans-serif;
+    margin-left: 10px;
+    color: rgb(79, 72, 72);
+}
+.cont{
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-size: 15px;
+}
+button:hover{
+    background-color: rgb(207, 207, 177);
+}
+
+.contact{
+    font-size: 20px;
+    margin-left: 10px;
+    font-family: sans-serif;
+}
+form input{
+    width: 100%;
+    height: 30px;
+}
+.msg{
+    height: 50px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    padding: 5px;
+}
+.lastimg{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+.lastimg img{
+    width: 100%;
+    height: 100%;
+}
+footer{
+    height: 10vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+}
+footer a{
+    color: white;
+    cursor: pointer;
+
+}
+footer a:hover{
+   
+    color: rgb(49, 44, 44);
+}
+    </style>
+</head>
+<body>
+    <div class="header">
+<ul>
+    
+    <li id="a">BR Architects</li>
+    <li id="b" >projects</li>
+    <li id="c" >about</li>
+    <li id="d" >contact</li>
+</ul>
+    </div>
+
+    <div class="content">
+   <span class="br">BR</span> <span class="art">Architects</span>
+    </div>
+
+    <p class="project">Projects</p>
+
+    <div class="box">
+        <div class="box1" id="b1">
+         
+       <div class="boxinner">
+        
+         <h5>summer house</h5></div>
+           
+            </div>
+            <div class="box1" id="b2">
+                <div class="boxinner"> <h5>brick house</h5></div>
+       
+           
+        </div>
+        <div class="box1" id="b3">
+            <div class="boxinner"> <h5> renovated</h5></div>
+            </div>
+        <div class="box1" id="b4">
+            <div class="boxinner"> <h5>barn house</h5></div>
+            </div>
+        <div class="box1" id="b5">
+            <div class="boxinner"> <h5>summer house</h5></div>
+            </div>
+        <div class="box1" id="b6">
+            <div class="boxinner"> <h5>brick house</h5></div>
+            </div>
+        <div class="box1" id="b7">
+            <div class="boxinner"> <h5> renovated</h5></div>
+            </div>
+        <div class="box1" id="b8">
+            <div class="boxinner"> <h5>barn house</h5></div>
+            </div>
+        
+    </div>
+
+<p class="project">About</p>
+<p class="about">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+<div class="box">
+    <div class="box2" id="jon">
+        <div class="john">
+            <img src="https://www.w3schools.com/w3images/team2.jpg" alt="">
+        </div>
+        <div class="john2">
+            <p class="doe">John Doe</p>
+            <p class="artk">CEO & Founder</p>
+            <p class="cont">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+            <button >Contact</button>
+        </div>
+    </div>
+    <div class="box2">
+        <div class="john">
+            <img src="https://www.w3schools.com/w3images/team1.jpg" alt="">
+        </div>
+        <div class="john2">
+            <p class="doe">Jane Doe</p>
+            <p class="artk">Architect</p>
+            <p class="cont">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+            <button>Contact</button>
+        </div>
+    </div>
+    <div class="box2">
+        <div class="john">
+            <img src="https://www.w3schools.com/w3images/team3.jpg" alt="">
+        </div>
+        <div>
+            <p class="doe">Mic Rose</p>
+            <p class="artk">Architect</p>
+            <p class="cont">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+            <button>Contact</button>
+        </div>
+    </div>
+    <div class="box2">
+        <div class="john">
+            <img src="https://www.w3schools.com/w3images/team4.jpg" alt="">
+        </div>
+        <div>
+            <p class="doe">Dan Star</p>
+            <p class="artk">Architect</p>
+            <p class="cont">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+            <button>Contact</button>
+        </div>
+    </div>
+</div>
+
+<p class="project">Contact</p>
+<p class="contact">Lets get in touch and talk about your next project.</p>
+<form action="">
+    <input type="text" placeholder="Name"> <br> <br>
+    <input type="email" placeholder="Email"> <br><br>
+    <input type="text" placeholder="Subject"> <br><br>
+    <input type="text" placeholder="Comment"> <br><br>
+    <button class="msg">SEND MESSAGE</button> <br><br><br>
+</form>
+<div class="lastimg">
+    <img src="https://www.w3schools.com/w3images/map.jpg" alt="">
+</div>
+<footer>
+    <span >Powerd by <a href="">w3.css</a></span>
+</footer>
+</body>
+</html>
