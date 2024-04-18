@@ -233,6 +233,7 @@ strong{
     width: 280px;
     /* border: 2px solid red; */
     margin: 7px;
+    flex-grow: 2;
     /* justify-content: space-around; */
 }
 .pic{
@@ -302,6 +303,7 @@ strong{
     font-family: sans-serif;
     font-weight: 100;
     color: rgb(66, 60, 60);
+    
 }
 .opt ul{
     display: flex;
@@ -489,11 +491,13 @@ strong{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+  
     /* border: 2px solid black; */
 }
 .best-selling1{
     height: 380px;
     width: 280px;
+    flex-grow: 2;
     /* border: 2px solid red; */
   
     margin-bottom: 60px;
@@ -547,6 +551,8 @@ strong{
     color: rgb(180, 95, 95);
 }
 .form input{
+    width: 350px;
+    height: 50px;
    padding-right: 300px;
    
      padding: 15px;
@@ -561,8 +567,8 @@ strong{
 }
 .reg{
     padding: 15px;
-    padding-right: 150px;
-    padding-left: 150px;
+    padding-right: 130px;
+    padding-left: 130px;
     margin-top: 20px;
     font-family: sans-serif;
     font-weight: 100;
@@ -709,7 +715,7 @@ strong{
     width: 100%;
     margin: auto;
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
    justify-content: space-between;
    
     margin-top: 30px;
