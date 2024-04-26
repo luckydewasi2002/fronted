@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>z-index</title>
+   <style>
+  .container{
+    height: 70vh;
+    width: 70%;
+    border: 2px solid black;
+    background: linear-gradient(45deg,yellow,red);
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+  }
+  .bo{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    position: absolute;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+     margin-left: 250px;
+   margin-top: 100px; 
+  }
+  .bo:nth-child(1){
+    background-color: red;
+     z-index: 1;
+     z-index: 7;
+  }
+  .bo:nth-child(2){
+    background-color: yellow;
+    z-index: 2;
+    z-index: 6;
+  }
+  .bo:nth-child(3){
+    background-color: green;
+    z-index: 3;
+    z-index: 5;
+  }
+  .bo:nth-child(4){
+    background-color: pink;
+    z-index: 4;
+ 
+  }
+   </style>
+</head>
+<body>
+   <div class="container">
+     <div class="bo"></div>
+     <div class="bo"></div>
+     <div class="bo"></div>
+     <div class="bo"></div>
+   </div>   
+</body>
+</html>

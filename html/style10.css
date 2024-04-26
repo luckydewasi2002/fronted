@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+
+    height: 800vh;
+}
+
+.box{
+
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    /* margin: 5px; */
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    display: inline-block;
+   
+}
+ /*#box-1{
+    position: absolute;*/
+}
+.container{
+
+    height: 50vh;
+    background-color: yellow;
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+    position:sticky ;
+}
+p{
+
+    text-align: justify;
+    padding: 50px;
+    line-height: 40px;
+}

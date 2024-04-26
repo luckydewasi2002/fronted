@@ -1,0 +1,36 @@
+
+.s{
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(19, 60, 183);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px ;
+    width: 90%;
+    border-radius: 40px;
+   
+ }
+ .f{
+   
+    font-size: 18px;
+    padding: 14px 20px ;
+    width: 50%;
+   
+   
+    
+ }
+
+ .f input{
+
+    width: 90%;
+    padding: 10px 0px;
+ }
+
+.a {
+   color: blue;
+   text-align: center;
+   font-family: sans-serif; 
+    border-bottom: 1px solid black;
+    width: 50%;
+ }
+ 
