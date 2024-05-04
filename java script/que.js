@@ -1,7 +1,20 @@
-let a='i';
-if((a=='a'&& a=='e' && a=='i'&& a=='o'&& a=='u')||(a=='A'&& a=='E' && a=='I'&& a=='O'&& a=='U')){
-    console.log("vowel")
+let marks=95;
+if(marks>=90){
+    console.log(1500rs)
+    console.log(1000rs)
+    console.log(500rs)
+    console.log(100rs)
+  
 }
-else{
-    console.log("consonant")
+else if(marks>75 && marks<90){
+    console.log(1000rs)
+    console.log(500rs)
+    console.log(100rs)
+}
+else if(marks>60 && marks <=75){
+    console.log(500rs)
+    console.log(100rs)
+}
+else if(marks<60){
+    console.log(100rs)
 }
