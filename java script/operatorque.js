@@ -238,4 +238,51 @@
 // }
 
 //-------------------------------
+//Write a Java Script Program to find frequency of each digit in a given integer.
+//ans.
 
+// let num=12345;
+// let count=0;
+// while(num!=0){
+//     count++
+//     num=parseInt(num/10)
+// }
+// console.log(count)
+
+//----------------------------------------------
+//Write a Java Script Program to print all Prime numbers between 1 to n.
+
+// let n=100;
+// let flag=0;
+// for(let i=1;i<n;i++){
+//     flag=0
+//     for(let j=2;j<i;j++){
+//         if(i%j==0){
+//             flag=1
+//         }
+//     }
+//     if(flag==0){
+//         console.log(i)
+//     }
+// }
+
+//---------------------------------------
+
+//Write a Java Script Program to find sum of all prime numbers between 1 to n.
+
+
+// let n=10;
+// let flag=0;
+// let sum=0;
+// for(let i=1;i<n;i++){
+//     flag=0
+//     for(let j=2;j<i;j++){
+//         if(i%j==0){
+//             flag=1
+//         }
+//     }
+//     if(flag==0){
+//         sum=sum+i
+//         console.log(sum)
+//     }
+// }
