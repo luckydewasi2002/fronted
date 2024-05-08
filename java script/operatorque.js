@@ -286,3 +286,198 @@
 //         console.log(sum)
 //     }
 // }
+
+//------------------------------
+// Write a Java Script Program to find sum of all prime numbers between 1 to n.
+
+// ans.
+// function primen(n){
+//    let flag=0;
+//    let sum=0;
+//    for(let i=1;i<n;i++){
+//     flag=0
+//     for(let j=2;j<i;j++){
+       
+//         if(i%j==0){
+           
+//             flag=1
+//         }
+       
+        
+//     }
+//     if(flag==0){
+//          sum=sum+i
+//          console.log(sum)
+//     }
+       
+   
+//    }
+  
+// }
+
+// let ans=primen(9)
+
+// --------------------------------------------------- 
+
+
+
+// -------------------------------------
+// Write a Java Script Program to check whether a number is Armstrong number or not.
+// ans.
+// function armstrong(n) {
+//    let temp = n;
+//   let freq = 0;
+//   let sum = 0;
+//    while (temp != 0) {
+//         temp = parseInt(temp / 10)
+//         freq++;
+//      }    while (n != 0) {
+//          let rem = n % 10;
+//          sum = sum + rem ** freq;
+//          n = parseInt(n / 10)
+//      }
+//      return sum;
+//  } let no = 254;
+//  let ans = armstrong(no)
+//  if (ans == no) {
+//      console.log("armstrong number")
+//  }
+//  else {
+//      console.log(" not a armstrong number")
+//  }
+
+// ---------------------------------
+
+// Write a Java Script Program to print Fibonacci series up to n terms.
+// ans.
+// function febonicca(n){
+//     let n1=0;
+//     let n2=1
+//     let n3;
+//     console.log(n1)
+//     console.log(n2)
+// for(let i=1; i<=n;i++){
+//     n3=n2+n1;
+//     console.log(n3)
+//     n1=n2
+//     n2=n3
+// }
+    
+// }
+// let ans =febonicca(6)
+// ---------------------------------
+
+// Write a Java Script Program to find all factors of a number.
+// ans.
+// function factor(n){
+     
+   
+//     for(let i=1;i<n;i++){
+//         if(n%i==0){
+            
+//             console.log(i)
+//         }
+        
+//     }
+// }
+// let ans=factor(12)
+
+// -----------------------------------------------
+// Write a Java Script Program to check whether a number is Perfect number or not.
+
+// ans.
+
+// function perfect(n){
+//     let sum=0;
+//     for(let i=1;i<n;i++){
+//         if(n%i==0){
+//             sum=sum+i
+            
+//         }
+       
+//     }
+//     if(sum==n){
+//         console.log("perfect number")
+//     }
+//     else{
+//         console.log(" not a perfect number")
+//     }
+// }
+// let ans = perfect(8)
+
+// --------------------------------------
+
+// Write a Java Script Program to print all Perfect numbers between 1 to n.
+// ans.
+// function allperfect(n){
+//     for (let num = 1; num <= n; num++) {
+//         let sum = 0;
+//         for (let i = 1; i <= num /2; i++) {
+//             if (num % i === 0) {
+//                 sum += i;
+//             }
+//         }
+//         if (sum === num) {
+//             console.log(num);
+//         }
+//     }
+// }
+// let ans=allperfect(100)
+
+// ---------------------------------------
+
+
+// Write a Java Script Program to check whether a number is Strong number or not.
+// ans.
+// function strongnumber(n){
+//     let sum=0
+//     let temp=n
+//     while(n!=0){
+//         let fact=1;
+//         let rem=n%10
+//         for(let i=rem;i>=1;i--){
+//             fact=fact*i
+           
+//         }
+//         sum=sum+fact;
+//         n=parseInt(n/10)
+       
+//     }
+//     if(sum==temp){
+//         console.log("strong number")
+//     }
+//     else{
+//         console.log(" not a strong number")
+//     }
+   
+// }
+// let ans = strongnumber(145)
+
+// --------------------------------------------------
+
+// Write a Java Script Program to print all Strong numbers between 1 to n.
+
+// ans.
+
+// function strongn(n){
+
+// for (let num = 1; num <= n; num++) {
+//     let temp = num;
+//     let sum = 0;
+
+//     while (temp > 0) {
+//         let digit = temp % 10;
+//         let factorial = 1;
+//         for (let i = 1; i <= digit; i++) {
+//             factorial *= i;
+//         }
+//         sum += factorial;
+//         temp = parseInt(temp / 10);
+//     }
+
+//     if (sum === num) {
+//         console.log(num);
+//     }
+// }
+// }
+// let ans=strongn(100)
