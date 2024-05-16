@@ -167,3 +167,50 @@
 // }
 // a("my name is akshay singh ")
 // -----------------------------------------------------------------
+
+
+//q.)Write a JavaScript function to check whether an 'input' is a string or not.
+
+// let name="ram is a boy"
+// if( typeof name=='string'){
+//     console.log("true")
+// }
+// else{
+//     console.log("false")
+// }
+
+
+//------------------------------------------------------------
+
+// que.)Write a JavaScript function to check whether a string is blank or not.
+
+// let name=""
+// if( 0===name.length){
+//     console.log("blank")
+// }
+// else{
+//     console.log("string")
+// }
+
+//------------------------------------------------------------------------------------------------
+//Write a JavaScript function to split a string and convert it into an array of words.
+
+// let name="rajan";
+// console.log(name.split(""))
+
+//------------------------------------------------
+
+//que.)Write a JavaScript function to extract a specified number of characters from a string
+
+// let name="im from nagaur";
+// console.log(name.slice(0,4))
+
+//--------------------------------------------------
+
+let sentence = " rahul is going to banglore"
+
+let words= sentence.split(" ")
+words = words.charAt(0).toUpperCase() + words.slice(1);
+
+let cs = words.join(" ");
+console.log(cs)

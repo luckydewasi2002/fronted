@@ -1,5 +1,5 @@
 let flag=0;
-let num=7;
+let num=9;
 for(let i=2; i<num; i++){
     if(num%i==0){
         flag=1;

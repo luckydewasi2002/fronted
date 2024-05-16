@@ -140,15 +140,31 @@
 
 // count("my name is laxman")
 
-let a=(name)=>{
+// let a=(name)=>{
    
 
-let ulta = name.split(" ");
+// let ulta = name.split(" ");
 
-let revers= ulta.reverse();
+// let revers= ulta.reverse();
 
-let joint= revers.join(" ");
+// let joint= revers.join(" ");
 
-console.log(joint);
-}
-a("my name is akshay singh ")
+// console.log(joint);
+// }
+// a("my name is akshay singh ")
+
+//frequency of each word
+// let a= "i love programming language"
+// let i_freq=0;
+// for(i of a){
+//     if(i=="i"){
+//         i_freq++
+//     }
+// }
+// console.log(i_freq)
+
+
+
+
+
+
