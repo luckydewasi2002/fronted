@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Change Background Color</title>
+<style>
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .box {
+        width: 200px;
+        height: 200px;
+        margin-top: 20px;
+        border: 1px solid black;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <label for="colorInput">Enter Color:</label>
+    <input type="text" id="colorInput">
+    <label for="divNumberInput">Enter Div Number:</label>
+    <input type="number" id="divNumberInput">
+    <button onclick="changeBackgroundColor()">Submit</button>
+
+    <div id="output" class="box"></div>
+    <div id="output" class="box"></div>
+</div>
+
+<script>
+    function changeBackgroundColor() {
+        var color = document.getElementById("colorInput").value;
+        var divNumber = parseInt(document.getElementById("divNumberInput").value);
+
+        // Select the div based on divNumber (assuming divs are numbered starting from 1)
+        var div = document.querySelector('.container').getElementsByTagName('div')[divNumber - 1];
+        
+        // Change the background color
+        div.style.backgroundColor = color;
+    }
+</script>
+
+</body>
+</html>

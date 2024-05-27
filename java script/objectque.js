@@ -226,7 +226,7 @@
 //       address: {
 //         street: "123 Main St",
 //         city: "Anytown",
-//         country: "IND",
+//         country: "USA",
 //       },
 //       orders: [
 //         { orderId: "A123", amount: 50.75, status: "completed" },
@@ -243,11 +243,22 @@
 //         country: "USA",
 //       },
 //       orders: [
-//         { orderId: "C789", amount: 100.5, status: "pending" },
-//         { orderId: "D012", amount: 70.2, status: "completed" },
+//         { orderId: "C789", amount: 10.5, status: "pending" },
+//         { orderId: "D012", amount: 10.2, status: "completed" },
 //       ],
 //     },
 //   ]
+
+
+// let a = complexData.filter((item)=>{
+    
+  
+//   return item.address.country == "USA" && item.orders.some((i)=> i.amount > 50)
+
+// }
+// )
+
+// console.log(a)
 
 
 
@@ -256,10 +267,10 @@
 //   })
 //   console.log(b)
 
-// const b= complexData.map((item)=>{
+// const c= complexData.map((item)=>{
 //     return item.name
 //   })
-//   console.log(b)
+//   console.log(c)
 
 // const b= complexData.map((item)=>{
 //     return item.orders.filter((item)=>{
@@ -315,3 +326,34 @@
 
  
 
+
+
+ 
+
+// var library = [ 
+//   {
+//       title: 'Bill Gates',
+//       author: 'The Road Ahead',
+//       readingStatus: true
+//   },
+//   {
+//       title: 'Steve Jobs',
+//       author: 'Walter Isaacson',
+//       readingStatus: true
+//   },
+//   {
+//       title: 'Mockingjay: The Final Book of The Hunger Games',
+//       author: 'Suzanne Collins',
+//       readingStatus: false
+//   }];
+
+// for (var i = 0; i < library.length; i++) 
+//  {
+//   var book = "'" + library[i].title + "'" + ' by ' + library[i].author + ".";
+//   if (library[i].readingStatus) {
+//     console.log("Already read " + book);
+//   } else
+//   {
+//    console.log("You still need to read " + book);
+//   }
+//  }
