@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+</head>
+<body>
+   
+          <input type="text" class="inp" id="name" name="name" placeholder="enter your name" ><br>
+          <input type="number" class="inp"  id="age" name="age"  placeholder="enter age"><br>
+          <input type="email" id="email" class="inp"   name="email" placeholder="enter email"><br>
+          <textarea name="address" id="address" class="inp"  placeholder="enter address"></textarea>
+         
+
+  
+   
+
+<button id="btn">submit</button>
+     
+     <script>
+        
+
+const UsersList = [];
+
+document.getElementById('btn').onclick=function() {
+
+     let userDetails=document.querySelectorAll(".inp");
+     let user = {name:"",age:"",email:"",address:""};
+               for(let i of userDetails){
+                    user[i.name]=i.value;
+                 
+               }
+               UsersList.push(user);
+              Array.from(document.querySelectorAll('.inp')).forEach((val)=>{
+               val.value = "";
+              })                
+          
+
+
+  console.log(UsersList)
+};
+
+     </script>
+</body>
+</html>

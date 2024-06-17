@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form fill</title>
+</head>
+<body>
+    <input id="name" class="inp" name="name" type="text" placeholder="enter you name"><br><br>
+    <input id="age" class="inp" name="age" type="number" placeholder="enter your ege"> <br><br>
+    <input id="email" class="inp" name="email" type="email" placeholder="enter your email"> <br><br>
+ <textarea id="addres" class="inp" name="addres"  placeholder="enter your addres" rows="5"></textarea> <br> <br>
+
+ <button id="btn">submit</button>
+
+ <script>
+    let user_detail ={
+        name:'',
+        age:'',
+        email:'',
+        addres:'',
+
+    }
+    document.getElementById("btn").onclick = function(){
+        let a= document.querySelectorAll(".inp");
+        for(let i of a){
+            user_detail[i.name]= i.value;
+        }
+        console.log(user_detail);
+    }
+
+     // document.getElementById("btn").onclick = function(){
+                // let name = document.getElementById("name").value;
+                // let age = document.getElementById("age").value ;
+                // let email = document.getElementById("email").value ;
+                // let addres = document.getElementById("addres").value ;
+                
+                // user_detail['name']= name;
+                // user_detail['age']= age;
+                // user_detail['email']= email;
+                // user_detail['addres']= addres;
+
+                // console.log(user_detail)
+     //}
+ </script>
+</body>
+</html>
